@@ -2,6 +2,8 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { scrollToSection } from "@/lib/scrollToSection";
 
+
+
 export default function Home() {
   return (
     <section id="home" className="pt-32 pb-20 md:pt-40 md:pb-28">
@@ -57,10 +59,10 @@ export default function Home() {
           </div>
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+              src="/Screenshot (75).png"
               alt="Raghuram G.N."
               className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white shadow-xl"
-            />
+            />*/
           </div>
         </div>
       </div>
