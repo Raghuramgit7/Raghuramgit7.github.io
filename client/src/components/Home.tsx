@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { scrollToSection } from "@/lib/scrollToSection";
-import myPhoto from "assets/my-photo.png";
+import myPhoto from "client/assets/my-photo.png";
 
 
 
@@ -59,9 +59,9 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 flex justify-center md:justify-end mb-12 md:mb-0">
             <img
-            src={myPhoto}
-            alt="Raghuram G.N."
-            className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white shadow-xl"
+              src={myPhoto}
+              alt="Raghuram G.N."
+              className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white shadow-xl"
             />
             </div>
 
