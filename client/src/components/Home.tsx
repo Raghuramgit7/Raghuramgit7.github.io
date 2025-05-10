@@ -1,6 +1,7 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { scrollToSection } from "@/lib/scrollToSection";
+import myPhoto from "@/assets/my-photo.png";
 
 
 
@@ -42,7 +43,7 @@ export default function Home() {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="https://www.linkedin.com/in/raghuram-gn/"
+                href="https://www.linkedin.com/in/raghuramgn/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary transition"
@@ -56,6 +57,14 @@ export default function Home() {
                 <Mail className="w-6 h-6" />
               </a>
             </div>
+            <div className="md:w-1/2 flex justify-center md:justify-end mb-12 md:mb-0">
+            <img
+            src={myPhoto}
+            alt="Raghuram G.N."
+            className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white shadow-xl"
+            />
+            </div>
+
           </div>
           
         </div>
