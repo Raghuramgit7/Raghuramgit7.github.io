@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <a href="#home" className="text-xl font-semibold flex items-center">
               <span className="bg-white text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2">
-                R
+                Raghuram
               </span>
               Raghuram G.N.
             </a>
@@ -29,7 +29,7 @@ export default function Footer() {
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="https://www.linkedin.com/in/raghuram-gn/" 
+              href="https://www.linkedin.com/in/raghuramgn/" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition"
