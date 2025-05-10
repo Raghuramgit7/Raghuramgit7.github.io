@@ -16109,8 +16109,8 @@ function Nx() {
                     href: "#home",
                     className: "text-xl font-semibold text-primary flex items-center",
                     children: [d.jsx("span", {
-                        className: "bg-primary text-blue rounded-full w-8 h-8 flex items-center justify-center mr-2",
-                        children: "Raghuram"
+                        className: "bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center mr-2",
+                        children: "R"
                     }), "Raghuram G.N."]
                 }), d.jsx("div", {
                     className: "hidden md:flex space-x-8",
@@ -16869,7 +16869,7 @@ function Dx() {
                         className: "text-xl font-semibold flex items-center",
                         children: [d.jsx("span", {
                             className: "bg-white text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2",
-                            children: "Raghuram"
+                            children: "R"
                         }), "Raghuram Nataraja."]
                     }), d.jsx("p", {
                         className: "text-gray-400 mt-2",
