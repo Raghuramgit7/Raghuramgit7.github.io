@@ -57,13 +57,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="md:w-1/2 flex justify-center md:justify-end">
-            <img
-              src="/my-photo.png"
-              alt="Raghuram G.N."
-              
-            />
-          </div>
+          
         </div>
       </div>
     </section>

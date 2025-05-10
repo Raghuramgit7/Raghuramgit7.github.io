@@ -5,11 +5,11 @@
   "license": "MIT",
   "homepage": "https://Raghuramgit7.github.io",
   "scripts": {
-    "dev": "NODE_ENV=development tsx server/index.ts",
-    "start": "NODE_ENV=production node dist/index.js",
+    "dev": "vite",
+    "preview": "vite preview",
     "check": "tsc",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "vite build && gh-pages -d dist",
     "build": "vite build",
     "copy-to-root": "cp -r dist/* . && cp -r dist/.* . 2>/dev/null || :",
     "build-to-root": "npm run build && npm run copy-to-root"
