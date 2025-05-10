@@ -16160,82 +16160,82 @@ const sa = e => {
 }
 ;
 function Px() {
-    return d.jsx("section", {
-      id: "home",
-      className: "pt-32 pb-20 md:pt-40 md:pb-28",
-      children: d.jsx("div", {
-        className: "container mx-auto px-4 md:px-6",
-        children: d.jsxs("div", {
-          className: "flex flex-col items-center justify-center text-center",
-          children: [
-            d.jsxs("div", {
-              className: "w-full mb-12",
-              children: [
-                d.jsxs("h1", {
-                  className: "text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4",
-                  children: [
-                    d.jsx("span", {
-                      className: "text-black",
-                      children: "Hello, I'm"
-                    }),
-                    d.jsx("span", {
-                      className: "text-primary block",
-                      children: "Raghuram"
-                    })
-                  ]
-                }),
-                d.jsx("p", {
-                  className: "text-xl md:text-2xl text-gray-600 mb-8",
-                  children: "Software Engineer specializing in cloud computing, scalable systems, and backend development."
-                }),
-                d.jsxs("div", {
-                  className: "flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center",
-                  children: [
-                    d.jsx(No, {
-                      className: "bg-primary hover:bg-blue-800 text-white font-medium py-3 px-8 h-auto",
-                      onClick: () => sa("contact"),
-                      children: "Get in Touch"
-                    }),
-                    d.jsx(No, {
-                      variant: "outline",
-                      className: "border-2 border-primary text-primary hover:bg-primary hover:text-white font-medium py-3 px-8 h-auto",
-                      onClick: () => sa("projects"),
-                      children: "View My Work"
-                    })
-                  ]
-                }),
-                d.jsxs("div", {
-                  className: "flex mt-8 space-x-4 justify-center",
-                  children: [
-                    d.jsx("a", {
-                      href: "https://github.com/Raghuramgit7",
-                      target: "_blank",
-                      rel: "noopener noreferrer",
-                      className: "text-gray-600 hover:text-primary transition",
-                      children: d.jsx(mm, { className: "w-6 h-6" })
-                    }),
-                    d.jsx("a", {
-                      href: "https://www.linkedin.com/in/raghuramgn/",
-                      target: "_blank",
-                      rel: "noopener noreferrer",
-                      className: "text-gray-600 hover:text-primary transition",
-                      children: d.jsx(hm, { className: "w-6 h-6" })
-                    }),
-                    d.jsx("a", {
-                      href: "mailto:raghuram0311@gmail.com",
-                      className: "text-gray-600 hover:text-primary transition",
-                      children: d.jsx(uu, { className: "w-6 h-6" })
-                    })
-                  ]
-                })
-              ]
-            })
-          ]
-        })
+  return d.jsx("section", {
+    id: "home",
+    className: "pt-32 pb-20 md:pt-40 md:pb-28",
+    children: d.jsx("div", {
+      className: "container mx-auto px-4 md:px-6",
+      children: d.jsxs("div", {
+        className: "flex flex-col items-center justify-center text-center",
+        children: [
+          d.jsxs("div", {
+            className: "w-full mb-12",
+            children: [
+              d.jsxs("h1", {
+                className: "text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4",
+                children: [
+                  d.jsx("span", {
+                    className: "text-black",
+                    children: "Hello, I'm"
+                  }),
+                  d.jsx("span", {
+                    className: "text-primary block",
+                    children: "Raghuram"
+                  })
+                ]
+              }),
+              d.jsx("p", {
+                className: "text-xl md:text-2xl text-gray-600 mb-8",
+                children: "Software Engineer specializing in cloud computing, scalable systems, and backend development."
+              }),
+              d.jsxs("div", {
+                className: "flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center",
+                children: [
+                  d.jsx(No, {
+                    className: "bg-primary hover:bg-blue-800 text-white font-medium py-3 px-8 h-auto",
+                    onClick: () => sa("contact"),
+                    children: "Get in Touch"
+                  }),
+                  d.jsx(No, {
+                    variant: "outline",
+                    className: "border-2 border-primary text-primary hover:bg-primary hover:text-white font-medium py-3 px-8 h-auto",
+                    onClick: () => sa("projects"),
+                    children: "View My Work"
+                  })
+                ]
+              }),
+              d.jsxs("div", {
+                className: "flex mt-8 space-x-4 justify-center",
+                children: [
+                  d.jsx("a", {
+                    href: "https://github.com/Raghuramgit7",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    className: "text-gray-600 hover:text-primary transition",
+                    children: d.jsx(mm, { className: "w-6 h-6" })
+                  }),
+                  d.jsx("a", {
+                    href: "https://www.linkedin.com/in/raghuramgn/",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    className: "text-gray-600 hover:text-primary transition",
+                    children: d.jsx(hm, { className: "w-6 h-6" })
+                  }),
+                  d.jsx("a", {
+                    href: "mailto:raghuram0311@gmail.com",
+                    className: "text-gray-600 hover:text-primary transition",
+                    children: d.jsx(uu, { className: "w-6 h-6" })
+                  })
+                ]
+              })
+            ]
+          })
+        ]
       })
-    });
-  }
-  
+    })
+  });
+}
+
 function Tx() {
     return d.jsx("section", {
         id: "about",
@@ -16870,7 +16870,7 @@ function Dx() {
                         children: [d.jsx("span", {
                             className: "bg-white text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2",
                             children: "R"
-                        }), "Raghuram Nataraja."]
+                        }), "Raghuram G.N."]
                     }), d.jsx("p", {
                         className: "text-gray-400 mt-2",
                         children: "Software Engineer specializing in cloud computing and backend development"
