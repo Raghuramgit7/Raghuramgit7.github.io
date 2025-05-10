@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { scrollToSection } from "@/lib/scrollToSection";
-import myPhoto from "client/assets/my-photo.png";
+import myPhoto from "../assets/my-photo.png"; 
 
 
 
