@@ -16869,8 +16869,8 @@ function Dx() {
                         className: "text-xl font-semibold flex items-center",
                         children: [d.jsx("span", {
                             className: "bg-white text-primary rounded-full w-8 h-8 flex items-center justify-center mr-2",
-                            children: "R"
-                        }), "Raghuram G.N."]
+                            children: "Raghuram"
+                        }), "Raghuram Nataraja."]
                     }), d.jsx("p", {
                         className: "text-gray-400 mt-2",
                         children: "Software Engineer specializing in cloud computing and backend development"
