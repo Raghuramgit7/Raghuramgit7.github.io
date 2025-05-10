@@ -61,7 +61,7 @@ export default function Home() {
             <img
               src="/my-photo.png"
               alt="Raghuram G.N."
-              className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white shadow-xl"
+              
             />
           </div>
         </div>
