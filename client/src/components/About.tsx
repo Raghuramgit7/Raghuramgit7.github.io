@@ -28,12 +28,14 @@ export default function About() {
             <h2 className="text-4xl font-bold text-dark mb-6">About Me</h2>
             <div className="w-20 h-1 bg-primary mb-8 rounded-full"></div>
 
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">Results-Driven Software Engineer</h3>
+            <h3 className="text-2xl font-bold text-gray-800 mb-4">AI Research Engineer & Software Architect</h3>
             <p className="text-gray-600 mb-8 text-lg leading-relaxed">
-              I'm a Software Engineer specializing in cloud computing, scalable systems, and AI-driven solutions.
-              My focus is on bridging the gap between complex backend architectures and intelligent, user-centric experiences.
-              With a strong foundation in MS Computer Science and real-world experience in ETL workflows and API design,
-              I build systems that are not just functional, but highly performant and scalable.
+              I specialize in engineering **agentic systems** and scalable AI infrastructure. Currently at Portland State University,
+              my research focuses on frontier LLM reasoning and building autonomous agents that bridge the gap between
+              intelligent models and production-ready software.
+              <br /><br />
+              With a background in heavy-duty data engineering and backend architecture, I don't just build models—I build
+              the systems that make them reliable, performant, and impactful at scale.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
