@@ -1,70 +1,108 @@
-import { ArrowRight } from "lucide-react";
+import { ExternalLink, Github, Code2 } from "lucide-react";
 import { projects } from "@/lib/constants";
+import { Button } from "@/components/ui/button";
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-20 section-fade-in">
+    <section id="projects" className="py-24 bg-dark text-white section-fade-in">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-dark">Featured Projects</h2>
-          <div className="w-20 h-1 bg-primary mx-auto mt-2 rounded-full"></div>
+          <h2 className="text-4xl font-bold mb-4">Featured Projects</h2>
+          <div className="w-24 h-1 bg-primary mx-auto rounded-full"></div>
+          <p className="text-gray-400 mt-6 max-w-2xl mx-auto">
+            A collection of my work spanning AI, Data Engineering, and Full-Stack Development.
+          </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div 
+            <div
               key={index}
-              className="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300"
+              className="group bg-[#111827] border border-gray-800 rounded-2xl overflow-hidden shadow-2xl transition-all duration-500 hover:border-primary/50 hover:-translate-y-2"
             >
-              <img 
-                src={project.image} 
-                alt={project.title}
-                className="w-full h-48 object-cover"
-              />
+              <div className="relative overflow-hidden aspect-video">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-transparent to-transparent opacity-60"></div>
+              </div>
+
               <div className="p-6">
-                <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
-                <p className="text-gray-600 mb-4 text-sm">{project.period}</p>
-                <p className="text-gray-700 mb-4">{project.description}</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technologies.map((tech, techIndex) => (
-                    <span 
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-xl font-bold group-hover:text-primary transition-colors">
+                    {project.title}
+                  </h3>
+                </div>
+
+                <p className="text-primary/80 text-xs font-semibold uppercase tracking-wider mb-3">
+                  {project.period}
+                </p>
+
+                <p className="text-gray-400 mb-6 line-clamp-3 text-sm leading-relaxed">
+                  {project.description}
+                </p>
+
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {project.technologies.slice(0, 4).map((tech, techIndex) => (
+                    <span
                       key={techIndex}
-                      className="px-2 py-1 bg-gray-100 text-gray-700 rounded-md text-xs"
+                      className="px-2 py-1 bg-gray-800/50 border border-gray-700 text-gray-300 rounded-md text-[10px] font-medium"
                     >
                       {tech}
                     </span>
                   ))}
+                  {project.technologies.length > 4 && (
+                    <span className="text-[10px] text-gray-500 self-center">
+                      +{project.technologies.length - 4} more
+                    </span>
+                  )}
                 </div>
-                <a 
-                  href={project.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary font-medium hover:underline inline-flex items-center text-sm"
-                >
-                  Learn more <ArrowRight className="ml-1 h-4 w-4" />
-                </a>
+
+                <div className="flex items-center gap-4 pt-4 border-t border-gray-800">
+                  <a
+                    href={project.github || "https://github.com/Raghuramgit7"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
+                  >
+                    <Github className="w-4 h-4" />
+                    <span>Source</span>
+                  </a>
+
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors ml-auto"
+                  >
+                    <span>Live Demo</span>
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                </div>
               </div>
             </div>
           ))}
         </div>
-        
-        <div className="text-center mt-12">
-          <a 
-            href="https://github.com/Raghuramgit7" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-flex items-center bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium py-3 px-6 rounded-lg transition"
+
+        <div className="text-center mt-16">
+          <Button
+            variant="outline"
+            size="lg"
+            className="rounded-full border-primary text-primary hover:bg-primary hover:text-white px-8"
+            asChild
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 mr-2"
-              viewBox="0 0 24 24"
-              fill="currentColor"
+            <a
+              href="https://github.com/Raghuramgit7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2"
             >
-              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-            </svg>
-            View More on GitHub
-          </a>
+              <Github className="w-5 h-5" />
+              View All Projects on GitHub
+            </a>
+          </Button>
         </div>
       </div>
     </section>
