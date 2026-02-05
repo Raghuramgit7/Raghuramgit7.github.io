@@ -9,9 +9,9 @@
     "preview": "vite preview",
     "check": "tsc",
     "predeploy": "npm run build",
-    "deploy": "vite build && gh-pages -d dist",
+    "deploy": "vite build && gh-pages -d dist/public",
     "build": "vite build",
-    "copy-to-root": "copyfiles -u 1 dist/**/* dist/index.html .",
+    "copy-to-root": "cp -r dist/public/* .",
     "build-to-root": "npm run build && npm run copy-to-root"
   },
   "dependencies": {
