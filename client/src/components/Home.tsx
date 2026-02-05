@@ -37,7 +37,7 @@ export default function Home() {
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-500 mb-10 max-w-2xl leading-relaxed">
-              Software Engineer specializing in <span className="text-dark font-medium underline decoration-primary/30 underline-offset-4">Cloud Computing</span>, <span className="text-dark font-medium underline decoration-primary/30 underline-offset-4">Scalable Systems</span>, and <span className="text-dark font-medium underline decoration-primary/30 underline-offset-4">AI-Driven Solutions</span>.
+              AI Research Engineer specialized in <span className="text-dark font-medium underline decoration-primary/30 underline-offset-4">Agentic AI</span>, <span className="text-dark font-medium underline decoration-primary/30 underline-offset-4">Scalable Backend Systems</span>, and <span className="text-dark font-medium underline decoration-primary/30 underline-offset-4">Cloud Architecture</span>.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
