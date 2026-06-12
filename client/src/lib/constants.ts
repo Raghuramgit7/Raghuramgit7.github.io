@@ -79,6 +79,15 @@ export const experience = [
 // Projects data
 export const projects = [
   {
+    title: "Multi-Agent Incident Response System",
+    period: "May 2026 - June 2026",
+    description: "Autonomous SRE assistant built on LangGraph and CrewAI to diagnose production incidents from logs and metrics, retrieve remediations via ChromaDB vector store, and execute fixes with human-approval gates.",
+    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=2070",
+    technologies: ["LangGraph", "CrewAI", "ChromaDB", "Ollama", "Python", "pytest"],
+    link: "https://github.com/Raghuramgit7/React-Agent",
+    github: "https://github.com/Raghuramgit7/React-Agent"
+  },
+  {
     title: "IDA – Iterative Development Agent",
     period: "Oct 2024 - Present",
     description: "Evolutionary Code Agent built with LangGraph to automate coding tasks. Improved code quality to a PERFECT pass rate across test tasks and reduced developer rework through an agentic feedback loop (coder-critic-fixer).",
@@ -97,6 +106,15 @@ export const projects = [
     github: "https://github.com/Raghuramgit7/ai-lawyer-custom"
   },
   {
+    title: "MCP DevOps PR Agent",
+    period: "Jan 2026 - March 2026",
+    description: "Autonomous DevOps agent built on FastAPI and Model Context Protocol (MCP). Implements auto-healing CI/CD workflows that diagnose GitHub Actions failures, push fix commits, and perform automated code reviews.",
+    image: "https://images.unsplash.com/photo-1618401471353-b98aedd07871?auto=format&fit=crop&q=80&w=2070",
+    technologies: ["Python", "FastAPI", "Model Context Protocol", "Gemini AI", "GitHub Actions"],
+    link: "https://github.com/Raghuramgit7/mcp-devops-pr-agent",
+    github: "https://github.com/Raghuramgit7/mcp-devops-pr-agent"
+  },
+  {
     title: "ReceiptLens AI Processor",
     period: "June 2024 - July 2024",
     description: "Developed an expense tracking system using Google Cloud Vision for OCR and Google Gemini for structured data extraction. Transforms unstructured receipt images into clean JSON with automated categorization.",
@@ -104,6 +122,15 @@ export const projects = [
     technologies: ["Gemini AI", "Flask", "Next.js", "PostgreSQL", "Google Cloud Vision"],
     link: "https://github.com/Raghuramgit7/ReceiptLens-AI-Powered-Receipt-Processing-System-",
     github: "https://github.com/Raghuramgit7/ReceiptLens-AI-Powered-Receipt-Processing-System-"
+  },
+  {
+    title: "CIFAR-10 Image Classifier",
+    period: "April 2026 - May 2026",
+    description: "Deep learning convolutional neural network (CNN) image classifier built with TensorFlow and Keras, served via a Flask web application. Utilizes data augmentation, batch normalization, and dropout to achieve over 85% accuracy.",
+    image: "https://images.unsplash.com/photo-1527474305487-b87b222841cc?auto=format&fit=crop&q=80&w=2070",
+    technologies: ["TensorFlow", "Keras", "Flask", "Python", "HTML/CSS"],
+    link: "https://github.com/Raghuramgit7/cifar10-classifier",
+    github: "https://github.com/Raghuramgit7/cifar10-classifier"
   },
   {
     title: "TriMet GPS Data Pipeline",
