@@ -28,7 +28,7 @@ export default function About() {
             <h2 className="text-4xl font-bold text-dark mb-6">About Me</h2>
             <div className="w-20 h-1 bg-primary mb-8 rounded-full"></div>
 
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">AI Research Engineer & Software Architect</h3>
+            <h3 className="text-2xl font-bold text-gray-800 mb-4">AI Graduate Assistant & Software Architect</h3>
             <p className="text-gray-600 mb-8 text-lg leading-relaxed">
               I specialize in engineering **agentic systems** and scalable AI infrastructure. Currently at Portland State University,
               my research focuses on frontier LLM reasoning and building autonomous agents that bridge the gap between

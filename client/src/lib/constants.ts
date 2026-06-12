@@ -39,7 +39,7 @@ export const skills = {
 export const experience = [
   {
     company: "Portland State University",
-    title: "AI Research Engineer",
+    title: "AI Graduate Assistant",
     period: "September 2025 - Present",
     responsibilities: [
       "Developing high-complexity datasets to benchmark and fine-tune frontier Large Language Models (LLMs), advancing agentic reasoning in software engineering.",
